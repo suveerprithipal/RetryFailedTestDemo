@@ -1,0 +1,46 @@
+@demo
+Feature: Retry a test that has failed
+
+  Scenario: When this test fails retry                        [90m# C:/Users/suveerp/Documents/GitHub/RetryFailedTestDemo/./src/test/resources/demo.feature:4[0m
+    [32mGiven [0m[32mI have two numbers[0m                                  [90m# MyStepdefs.iHaveTwoNumbers()[0m
+    [32mWhen [0m[32mI add them together[0m                                  [90m# MyStepdefs.iAddThemTogether()[0m
+    [31mThen [0m[31mThe expected answer does not match the actual answer[0m [90m# MyStepdefs.theExpectedAnswerDoesNotMatchTheActualAnswer()[0m
+      [31mjava.lang.AssertionError: expected:<7> but was:<5>
+      	at org.junit.Assert.fail(Assert.java:88)
+      	at org.junit.Assert.failNotEquals(Assert.java:834)
+      	at org.junit.Assert.assertEquals(Assert.java:645)
+      	at org.junit.Assert.assertEquals(Assert.java:631)
+      	at domain.MyStepdefs.theExpectedAnswerDoesNotMatchTheActualAnswer(MyStepdefs.java:14)
+      	at ✽.Then The expected answer does not match the actual answer(C:/Users/suveerp/Documents/GitHub/RetryFailedTestDemo/./src/test/resources/demo.feature:7)
+      [0m
+
+  Scenario: When this test fails retry                        [90m# C:/Users/suveerp/Documents/GitHub/RetryFailedTestDemo/./src/test/resources/demo.feature:4[0m
+    [32mGiven [0m[32mI have two numbers[0m                                  [90m# MyStepdefs.iHaveTwoNumbers()[0m
+    [32mWhen [0m[32mI add them together[0m                                  [90m# MyStepdefs.iAddThemTogether()[0m
+    [31mThen [0m[31mThe expected answer does not match the actual answer[0m [90m# MyStepdefs.theExpectedAnswerDoesNotMatchTheActualAnswer()[0m
+      [31mjava.lang.AssertionError: expected:<7> but was:<5>
+      	at org.junit.Assert.fail(Assert.java:88)
+      	at org.junit.Assert.failNotEquals(Assert.java:834)
+      	at org.junit.Assert.assertEquals(Assert.java:645)
+      	at org.junit.Assert.assertEquals(Assert.java:631)
+      	at domain.MyStepdefs.theExpectedAnswerDoesNotMatchTheActualAnswer(MyStepdefs.java:14)
+      	at ✽.Then The expected answer does not match the actual answer(C:/Users/suveerp/Documents/GitHub/RetryFailedTestDemo/./src/test/resources/demo.feature:7)
+      [0m
+
+  Scenario: When this test fails retry                        [90m# C:/Users/suveerp/Documents/GitHub/RetryFailedTestDemo/./src/test/resources/demo.feature:4[0m
+    [32mGiven [0m[32mI have two numbers[0m                                  [90m# MyStepdefs.iHaveTwoNumbers()[0m
+    [32mWhen [0m[32mI add them together[0m                                  [90m# MyStepdefs.iAddThemTogether()[0m
+    [31mThen [0m[31mThe expected answer does not match the actual answer[0m [90m# MyStepdefs.theExpectedAnswerDoesNotMatchTheActualAnswer()[0m
+      [31mjava.lang.AssertionError: expected:<7> but was:<5>
+      	at org.junit.Assert.fail(Assert.java:88)
+      	at org.junit.Assert.failNotEquals(Assert.java:834)
+      	at org.junit.Assert.assertEquals(Assert.java:645)
+      	at org.junit.Assert.assertEquals(Assert.java:631)
+      	at domain.MyStepdefs.theExpectedAnswerDoesNotMatchTheActualAnswer(MyStepdefs.java:14)
+      	at ✽.Then The expected answer does not match the actual answer(C:/Users/suveerp/Documents/GitHub/RetryFailedTestDemo/./src/test/resources/demo.feature:7)
+      [0m
+
+  Scenario: This test should pass and only run once                 [90m# C:/Users/suveerp/Documents/GitHub/RetryFailedTestDemo/./src/test/resources/demo.feature:9[0m
+    [32mGiven [0m[32mI have two numbers[0m                                        [90m# MyStepdefs.iHaveTwoNumbers()[0m
+    [32mWhen [0m[32mI add them together[0m                                        [90m# MyStepdefs.iAddThemTogether()[0m
+    [32mThen [0m[32mThe expected answer does not match the actual answer again[0m [90m# MyStepdefs.theExpectedAnswerDoesNotMatchTheActualAnswerAgain()[0m

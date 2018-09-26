@@ -1,0 +1,205 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "When this test fails retry",
+        "description": "",
+        "id": "retry-a-test-that-has-failed;when-this-test-fails-retry",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 100241400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have two numbers",
+            "match": {
+              "location": "MyStepdefs.iHaveTwoNumbers()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I add them together",
+            "match": {
+              "location": "MyStepdefs.iAddThemTogether()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1491200,
+              "error_message": "java.lang.AssertionError: expected:\u003c7\u003e but was:\u003c5\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat domain.MyStepdefs.theExpectedAnswerDoesNotMatchTheActualAnswer(MyStepdefs.java:14)\r\n\tat ✽.Then The expected answer does not match the actual answer(C:/Users/suveerp/Documents/GitHub/RetryFailedTestDemo/./src/test/resources/demo.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "The expected answer does not match the actual answer",
+            "match": {
+              "location": "MyStepdefs.theExpectedAnswerDoesNotMatchTheActualAnswer()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "When this test fails retry",
+        "description": "",
+        "id": "retry-a-test-that-has-failed;when-this-test-fails-retry",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have two numbers",
+            "match": {
+              "location": "MyStepdefs.iHaveTwoNumbers()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I add them together",
+            "match": {
+              "location": "MyStepdefs.iAddThemTogether()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 134800,
+              "error_message": "java.lang.AssertionError: expected:\u003c7\u003e but was:\u003c5\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat domain.MyStepdefs.theExpectedAnswerDoesNotMatchTheActualAnswer(MyStepdefs.java:14)\r\n\tat ✽.Then The expected answer does not match the actual answer(C:/Users/suveerp/Documents/GitHub/RetryFailedTestDemo/./src/test/resources/demo.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "The expected answer does not match the actual answer",
+            "match": {
+              "location": "MyStepdefs.theExpectedAnswerDoesNotMatchTheActualAnswer()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "When this test fails retry",
+        "description": "",
+        "id": "retry-a-test-that-has-failed;when-this-test-fails-retry",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 40600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have two numbers",
+            "match": {
+              "location": "MyStepdefs.iHaveTwoNumbers()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 48600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I add them together",
+            "match": {
+              "location": "MyStepdefs.iAddThemTogether()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 222100,
+              "error_message": "java.lang.AssertionError: expected:\u003c7\u003e but was:\u003c5\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat domain.MyStepdefs.theExpectedAnswerDoesNotMatchTheActualAnswer(MyStepdefs.java:14)\r\n\tat ✽.Then The expected answer does not match the actual answer(C:/Users/suveerp/Documents/GitHub/RetryFailedTestDemo/./src/test/resources/demo.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "The expected answer does not match the actual answer",
+            "match": {
+              "location": "MyStepdefs.theExpectedAnswerDoesNotMatchTheActualAnswer()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "This test should pass and only run once",
+        "description": "",
+        "id": "retry-a-test-that-has-failed;this-test-should-pass-and-only-run-once",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 72000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I have two numbers",
+            "match": {
+              "location": "MyStepdefs.iHaveTwoNumbers()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 41700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I add them together",
+            "match": {
+              "location": "MyStepdefs.iAddThemTogether()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The expected answer does not match the actual answer again",
+            "match": {
+              "location": "MyStepdefs.theExpectedAnswerDoesNotMatchTheActualAnswerAgain()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Retry a test that has failed",
+    "description": "",
+    "id": "retry-a-test-that-has-failed",
+    "keyword": "Feature",
+    "uri": "C:/Users/suveerp/Documents/GitHub/RetryFailedTestDemo/./src/test/resources/demo.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@demo"
+      }
+    ]
+  }
+]

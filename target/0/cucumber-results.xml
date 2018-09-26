@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="0.102369">
+<testcase classname="Retry a test that has failed" name="When this test fails retry" time="0.101751">
+<failure message="java.lang.AssertionError: expected:&lt;7&gt; but was:&lt;5&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at domain.MyStepdefs.theExpectedAnswerDoesNotMatchTheActualAnswer(MyStepdefs.java:14)&#13;&#10;&#9;at ✽.Then The expected answer does not match the actual answer(C:/Users/suveerp/Documents/GitHub/RetryFailedTestDemo/./src/test/resources/demo.feature:7)&#13;&#10;"><![CDATA[Given I have two numbers....................................................passed
+When I add them together....................................................passed
+Then The expected answer does not match the actual answer...................failed
+
+StackTrace:
+java.lang.AssertionError: expected:<7> but was:<5>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at domain.MyStepdefs.theExpectedAnswerDoesNotMatchTheActualAnswer(MyStepdefs.java:14)
+	at ✽.Then The expected answer does not match the actual answer(C:/Users/suveerp/Documents/GitHub/RetryFailedTestDemo/./src/test/resources/demo.feature:7)
+]]></failure>
+</testcase>
+<testcase classname="Retry a test that has failed" name="When this test fails retry" time="0.000173">
+<failure message="java.lang.AssertionError: expected:&lt;7&gt; but was:&lt;5&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at domain.MyStepdefs.theExpectedAnswerDoesNotMatchTheActualAnswer(MyStepdefs.java:14)&#13;&#10;&#9;at ✽.Then The expected answer does not match the actual answer(C:/Users/suveerp/Documents/GitHub/RetryFailedTestDemo/./src/test/resources/demo.feature:7)&#13;&#10;"><![CDATA[Given I have two numbers....................................................passed
+When I add them together....................................................passed
+Then The expected answer does not match the actual answer...................failed
+
+StackTrace:
+java.lang.AssertionError: expected:<7> but was:<5>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at domain.MyStepdefs.theExpectedAnswerDoesNotMatchTheActualAnswer(MyStepdefs.java:14)
+	at ✽.Then The expected answer does not match the actual answer(C:/Users/suveerp/Documents/GitHub/RetryFailedTestDemo/./src/test/resources/demo.feature:7)
+]]></failure>
+</testcase>
+<testcase classname="Retry a test that has failed" name="When this test fails retry" time="0.000311">
+<failure message="java.lang.AssertionError: expected:&lt;7&gt; but was:&lt;5&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at domain.MyStepdefs.theExpectedAnswerDoesNotMatchTheActualAnswer(MyStepdefs.java:14)&#13;&#10;&#9;at ✽.Then The expected answer does not match the actual answer(C:/Users/suveerp/Documents/GitHub/RetryFailedTestDemo/./src/test/resources/demo.feature:7)&#13;&#10;"><![CDATA[Given I have two numbers....................................................passed
+When I add them together....................................................passed
+Then The expected answer does not match the actual answer...................failed
+
+StackTrace:
+java.lang.AssertionError: expected:<7> but was:<5>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at domain.MyStepdefs.theExpectedAnswerDoesNotMatchTheActualAnswer(MyStepdefs.java:14)
+	at ✽.Then The expected answer does not match the actual answer(C:/Users/suveerp/Documents/GitHub/RetryFailedTestDemo/./src/test/resources/demo.feature:7)
+]]></failure>
+</testcase>
+<testcase classname="Retry a test that has failed" name="This test should pass and only run once" time="0.000134">
+<system-out><![CDATA[Given I have two numbers....................................................passed
+When I add them together....................................................passed
+Then The expected answer does not match the actual answer again.............passed
+]]></system-out>
+</testcase>
+</testsuite>
